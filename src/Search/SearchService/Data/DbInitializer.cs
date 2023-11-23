@@ -23,10 +23,11 @@ public class DbInitializer
 
         using var scope = app.Services.CreateScope();
         var httpClient = scope.ServiceProvider.GetRequiredService<AuctionServiceHttpClient>();
+        var logger = scope.ServiceProvider.GetRequiredService<ILogger<DbInitializer>>();
 
         var item = await httpClient.GetItemsForSearchDb();
         
-        Console.WriteLine(item.Count + "return from the auction service");
+        logger.LogInformation(item.Count + " return from the auction service");
 
         if (item.Count > 0) await DB.SaveAsync(item);
     }
