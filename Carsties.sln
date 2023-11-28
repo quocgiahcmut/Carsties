@@ -18,8 +18,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService", "src\Iden
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatewayService", "src\GatewayService\GatewayService.csproj", "{55F2AE3E-6E24-4F3C-B777-18074461C5EF}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "WebSpaApp", "src\Web\web-spa-app\WebSpaApp.njsproj", "{A6A8F388-7C72-424C-9617-C03654270F9E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,18 +88,6 @@ Global
 		{55F2AE3E-6E24-4F3C-B777-18074461C5EF}.Release|x64.Build.0 = Release|Any CPU
 		{55F2AE3E-6E24-4F3C-B777-18074461C5EF}.Release|x86.ActiveCfg = Release|Any CPU
 		{55F2AE3E-6E24-4F3C-B777-18074461C5EF}.Release|x86.Build.0 = Release|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Debug|x64.Build.0 = Debug|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Debug|x86.Build.0 = Debug|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Release|x64.ActiveCfg = Release|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Release|x64.Build.0 = Release|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Release|x86.ActiveCfg = Release|Any CPU
-		{A6A8F388-7C72-424C-9617-C03654270F9E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,7 +98,6 @@ Global
 		{146B5899-70DA-4538-B6CD-DD047CF7806B} = {54CF1AF3-1EC4-4A12-8CA5-78AF01AB19FF}
 		{73773594-CA31-4E6B-8808-C578057C9EB4} = {54CF1AF3-1EC4-4A12-8CA5-78AF01AB19FF}
 		{55F2AE3E-6E24-4F3C-B777-18074461C5EF} = {54CF1AF3-1EC4-4A12-8CA5-78AF01AB19FF}
-		{A6A8F388-7C72-424C-9617-C03654270F9E} = {54CF1AF3-1EC4-4A12-8CA5-78AF01AB19FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B1A75B0-9C21-4D45-A99F-A9300BFBACE8}
