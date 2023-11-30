@@ -32,11 +32,10 @@ async function put(url: string, body: {}) {
   return await handleResponse(response)
 }
 
-async function del(url: string, body: {}) {
+async function del(url: string) {
   const requestOptions = {
     method: 'DELETE',
-    headers: await getHeaders(),
-    body: JSON.stringify(body)
+    headers: await getHeaders()
   }
   const response = await fetch(baseUrl + url, requestOptions)
   return await handleResponse(response)
