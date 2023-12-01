@@ -6,6 +6,7 @@ EXPOSE 80
 COPY Carsties.sln Carsties.sln
 COPY src/Auction/AuctionService/AuctionService.csproj src/Auction/AuctionService/AuctionService.csproj
 COPY src/Search/SearchService/SearchService.csproj src/Search/SearchService/SearchService.csproj
+COPY src/BiddingService/BiddingService.csproj src/BiddingService/BiddingService.csproj
 COPY src/GatewayService/GatewayService.csproj src/GatewayService/GatewayService.csproj
 COPY src/Common/Contracts/Contracts.csproj src/Common/Contracts/Contracts.csproj
 COPY src/IdentityService/IdentityService.csproj src/IdentityService/IdentityService.csproj
